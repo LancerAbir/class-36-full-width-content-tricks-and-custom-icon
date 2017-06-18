@@ -1,0 +1,222 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea {
+    border: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+input[type="submit"], button[type="submit"] {
+    border: medium none;
+    color: #fff;
+    margin: 0;
+    padding: 15px 30px;
+    width: auto;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+} 
+
+*/*
+font {
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+*/*
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.7;
+}
+body {
+  background-color: #f5f6fa;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+
+.promo-box-area {
+    margin-left: -15px;
+    overflow: hidden;
+}
+.single-promo-box {
+  display: table;
+  float: left;
+  height: 300px;
+  text-align: center;
+  width: 50%;
+    background-color: #fff;
+}
+.promo-tableCell {
+  display: table-cell;
+  padding-top: 40px;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+}
+.promo-icon *::before {
+    display: inline-block;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-left: -5px;
+}
+.promo-icon {
+}
+.single-promo-box h4 {
+    font-size: 23px;
+    font-family: Roboto;
+    font-weight: 900;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.single-promo-box h4::after {
+    background-color: #d8889b;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 50%;
+    margin-left: -18px;
+    position: absolute;
+    width: 36px;
+}
+.book-now-btn {
+    background-color: #d8889b;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+}
+.single-promo-box:nth-child(2) {
+    background-color: #d8889b;
+    color: #fff;
+}
+.single-promo-box:nth-child(2) .book-now-btn, .single-promo-box:nth-child(3) .book-now-btn {
+    background-color: #fff;
+    color: #333;
+}
+.single-promo-box:nth-child(2) h4::after, .single-promo-box:nth-child(3) h4::after {
+    background-color: #fff;
+}
+.single-promo-box:nth-child(3) {
+    background-color: #7dbace;
+    color: #fff;
+}
+.single-promo-box:nth-child(2) .promo-icon, .single-promo-box:nth-child(3) .promo-icon {
+    color: #fff;
+}
+.single-promo-box:nth-child(1) .promo-icon {
+    color: #d8889b;
+}
+.single-promo-box:nth-child(1) h4, .single-promo-box:nth-child(4) h4 {
+    color: #45484d;
+}
+.single-promo-box:nth-child(4) .promo-icon {
+    color: #7dbace;
+}
+.single-promo-box:nth-child(4) h4::after {
+    background-color: #7dbace;
+}
+.single-promo-box:nth-child(4) .book-now-btn {
+    background-color: #7dbace;
+}
+.single-promo-box:hover .promo-tableCell {
+    padding-top: 0;
+}
+.single-promo-box:hover .book-now-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.promo-title h4 {
+    color: #7dbace;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+.promo-title h4 span {
+  color: #7dbace;
+}
+.promo-content {
+    font-family: roboto;
+    line-height: 1.7;
+    padding: 100px 50px;
+}
+.promo-title h1 {
+    color: #45484d;
+    font-size: 35px;
+}
+.promo-content h4 {
+    color: #45484d;
+    line-height: 1.4;
+}
+.promo-title {
+    padding-bottom: 30px;
+}
+.promo-content p {
+    color: #848484;
+    margin-bottom: 40px;
+}
+.view-service-btn {
+    background-color: #7dbace;
+    border: 1px solid #7dbace;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 900;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.learn-more-btn {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 50px;
+    color: #7dbace;
+    font-weight: 900;
+    margin-left: 15px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.learn-more-btn:hover {
+    background-color: #7dbace;
+    color: #fff;
+}
+.view-service-btn:hover {
+    background-color: #fff;
+    color: #7dbace;
+}
+
+
